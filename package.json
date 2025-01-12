@@ -2,9 +2,9 @@
   "name": "meu_aniversario",
   "version": "1.0.0",
   "description": "convite do meu aniversario",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/scripts/main.js src/styles/main.scss",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Thiago Batista",
